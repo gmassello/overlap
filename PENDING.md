@@ -3,8 +3,8 @@
 Deadline: **2026-10-30 23:45 -04:00** (2026-10-31 00:45 -03:00). Competition:
 <https://qloo.devpost.com/> · Submission: <pending> · Repo: [gmassello/overlap](https://github.com/gmassello/overlap).
 
-Stages (from `/details/dates`, with the opening per `/rules`): submissions 2026-09-30 09:00 ET → 2026-10-30 23:45 ET, judging 2026-11-02 12:00 ET → 2026-11-16 23:45 ET,
-winners on or around 2026-11-23 15:00 ET.
+Stages (from `/details/dates`, with the opening per `/rules`): submissions 2026-09-30 09:00 ET → 2026-10-30 23:45 ET, judging 2026-11-02 12:00 ET → 2026-11-05 23:45 ET,
+winners on or around 2026-11-05 15:00 ET, at the live finals.
 
 Code status in one line: no code yet; only `docs/IDEA.md`, `docs/HACKATHON.md`, and `docs/BRIEF.md`.
 
@@ -56,3 +56,4 @@ Not tasks: risks. Each one with its fallback.
 - **Qloo API key** (Google Form in the rules, may take a while) — fallback: build against cached responses and the legacy TasteDive API until it arrives.
 - **Devpost registration** ("Join hackathon") — fallback: none; no registration, no submission.
 - **Qloo API quota** (not published) — fallback: Supabase cache preloaded with the demo scenario.
+- **Live finals on 2026-11-05** (top 3 appear on air and must prepare beforehand) — fallback: none; keep the day free and have a short live pitch ready.

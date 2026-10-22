@@ -1,6 +1,6 @@
 # Qloo Agentic Hackathon
 
-Sources, read 2026-10-18: https://qloo.devpost.com/ · https://qloo.devpost.com/rules · https://qloo.devpost.com/details/dates
+Sources, read 2026-10-21: https://qloo.devpost.com/ · https://qloo.devpost.com/rules · https://qloo.devpost.com/details/dates
 
 ## 1. Event
 
@@ -8,7 +8,7 @@ Sources, read 2026-10-18: https://qloo.devpost.com/ · https://qloo.devpost.com/
 - **URL:** https://qloo.devpost.com/
 - **Organizer:** Qloo (Sponsor and Administrator), 100 Crosby Street, New York, NY 10012. Hosted on Devpost.
 - **Sponsors:** Qloo. Bonus investment from Jason Calacanis.
-- **Format:** online, public. 1783 participants as of 2026-10-18.
+- **Format:** online, public. 2104 participants as of 2026-10-21.
 - **Judges listed:** Jason Calacanis, Mike Diolosa (CTO, Qloo), Nicole Seligman, Todd Boehly, Cedric the Entertainer, Michael Abrams (Live Nation). The rules say judges may change and may not all be listed.
 
 ## 2. Timeline
@@ -18,10 +18,12 @@ Sources, read 2026-10-18: https://qloo.devpost.com/ · https://qloo.devpost.com/
 | Submission deadline | 2026-10-30 23:45 -04:00 | 2026-10-31 00:45 -03:00 |
 | Period opens | 2026-09-30 09:00 -04:00 | 2026-09-30 10:00 -03:00 |
 | Judging starts | 2026-11-02 12:00 -05:00 | 2026-11-02 14:00 -03:00 |
-| Judging ends | 2026-11-16 23:45 -05:00 | 2026-11-17 01:45 -03:00 |
-| Winners announced (on or around) | 2026-11-23 15:00 -05:00 | 2026-11-23 17:00 -03:00 |
+| Judging ends | 2026-11-05 23:45 -05:00 | 2026-11-06 01:45 -03:00 |
+| Winners announced (on or around) | 2026-11-05 15:00 -05:00 | 2026-11-05 17:00 -03:00 |
 
 - `/rules` gives the opening as 9:00 am ET; `/details/dates` gives 9:30 am EDT. `/rules` prevails and is used above.
+- `/rules` gives the end of judging as 2026-11-05 11:45 pm ET; `/details/dates` gives November 05 at 9:00 am EST. `/rules` prevails.
+- Updated 2026-10-21: judging used to end 2026-11-16 and winners were due 2026-11-23.
 - After the deadline the submission can no longer be changed (rules § 5).
 
 ## 3. Prizes and tracks
@@ -35,6 +37,7 @@ Sources, read 2026-10-18: https://qloo.devpost.com/ · https://qloo.devpost.com/
 
 - There is a single track. Each project can win at most one prize.
 - The bonus appears on the home page only; it is not in the Official Rules.
+- **Live finals (home page only, added by 2026-10-21):** "On November 5th, the Top 3 Finalists will appear on air with Jason Calacanis, Cedric the Entertainer, and Alex Elias, who will pick the winner!" Finalists present, answer questions, and learn the results live. They are notified soon after the close and "must be able to appear, and must be available for preparation prior to the appearance."
 
 ## 4. Judging criteria
 
@@ -93,3 +96,4 @@ Stage Two uses "the following equally weighted criteria":
 - **Qloo API key:** requested through the Google Form; it may take time to arrive.
 - **Devpost registration:** click "Join hackathon" on qloo.devpost.com before submitting.
 - **API quota:** the limit is not published. The demo must survive it through caching.
+- **Live finals availability:** if selected as a finalist, appear live on 2026-11-05 and prepare beforehand.
