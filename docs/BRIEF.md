@@ -13,6 +13,21 @@ In families with teenagers, ages and tastes under one roof are far apart. A 17-y
 - D4. I found no figures on how long groups take to decide or how often they give up. The closest result is a questionnaire that asks exactly that. — https://tally.so/r/0QKglA
 - D5. Among the same hackathon's projects, explanations and "I don't like this" corrections already exist (Home2Here), and persistent memory exists only per individual (rajat552). Multi-agent negotiation with group memory is open (`docs/IDEA.md:98`).
 
+## Impact
+- **Persona**: a parent of two teenagers (13 and 17) planning Friday night for the family; `sin contactar`.
+- **Pierde hoy**: Friday ends in "I don't know, what do you want?" and the same person gives in again.
+- **La cifra**: `sin medir: no family has used it yet; the app records minutes from "start night" to an accepted plan and vetoes per night, readable from the health endpoint`.
+- **Despues del evento**: four Fridays with three real families with teenagers.
+
+## Safety
+- **Accion irreversible**: `sin accion irreversible: the plan names places and times but never books or pays, and every memory entry can be removed`.
+
+## Demo surface
+- **Que ejecuta el jurado**: picks who is in from the preloaded family, starts Friday night, then taps "not that" on one part of the plan.
+- **Que resultado nuevo sale**: a full plan negotiated live from current Qloo data and the concession ledger, and after the veto a replacement part with its own reason.
+- **Que apuesta demuestra**: agents trade parts of the night instead of averaging, and fairness spans weeks: the tie goes to whoever gave in most before, not to the majority.
+- **Donde**: the hosted demo URL in `PENDING.md` (Site row), pending deploy.
+
 ## Actors
 - A1. Family member — talks to their agent once, then says yes or "not that" on Friday night.
 - A2. Member's agent — holds the member's taste profile and memory, and argues for the member in the negotiation.
@@ -49,6 +64,7 @@ In families with teenagers, ages and tastes under one roof are far apart. A 17-y
 - AE5. **Covers R5, R9, R6.** Given a final plan, when Tomás taps "not that" on dinner from his phone, then only dinner changes, the other two parts stay, and the rejected restaurant doesn't come back next week.
 - AE6. **Covers R11, R7.** Given a past night where Carla rejected theater, when the nightly process runs, then the next night's proposals for Carla rank theater lower than before.
 - AE7. **Covers R8.** Given the preloaded demo scenario and no network access to Qloo, when the night starts, then the full plan is produced from cached data and marked as such.
+- AE8. **Covers R3.** Given Tomás (13, Premier League) and Carla (theater), when the night starts, then before the first round the screen lists how close each pair's tastes are according to Qloo, and the most distant pair is the first to trade.
 
 ## Key decisions
 - Negotiation by trading parts of the plan — chosen over round-table discussion and red-lines-first because it avoids the averaging failure mode (D3) and makes the agents' trade-offs visible on screen. settled: user-approved
@@ -64,8 +80,8 @@ In families with teenagers, ages and tastes under one roof are far apart. A 17-y
 - Large groups that are clustered by affinity before negotiating (`docs/IDEA.md:33`). The demo uses 3 or 4 people (`docs/IDEA.md:32`).
 - Booking tickets or tables. The plan names places and times but doesn't reserve them.
 ### Outside this product
-- A recommender for one person alone. Every feature assumes a group (`docs/IDEA.md:98`).
-- Voting or swiping on a single movie (D1).
+- A recommender for one person alone (`docs/IDEA.md:98`) — with one person there is nobody to trade with, so the negotiation has no reason to exist.
+- Voting or swiping on a single movie (D1) — a vote picks one item and forgets; this product builds the whole night and remembers who gave in.
 
 ## Assumptions
 - Families with teenagers feel this pain often enough to open an app on Friday night. No data backs it (D4). If false, the pitch leans on fairness over time rather than on frequency.
